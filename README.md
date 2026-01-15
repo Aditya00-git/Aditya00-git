@@ -5,7 +5,7 @@
 
 ## 🚀 About Me
 - 🎓 Computer Science student at **VIT Bhopal**
-- 💻 I build **full-stack apps** and explore **machine learning**
+- 💻 I like turning ideas into working apps and exploring AI
 - 🧠 Interested in **AI, NLP, and scalable systems**
 
 ---
