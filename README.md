@@ -13,9 +13,9 @@
 
 EXPERIENCE
 ----------
-Intern – Edunet Foundation (IBM SkillBuild Program)
+Intern – Edunet Foundation (IBM SkillBuild)
 
-Joined the IBM SkillBuild internship program focused on industry-ready
+Joined the IBM SkillBuild internship focused on industry-ready
 technical skills, structured learning, and professional development.
 (Offer letter awaited)
 
