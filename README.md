@@ -7,6 +7,17 @@
 - 🎓 Computer Science student at **VIT Bhopal**
 - 💻 I like turning ideas into working apps and exploring AI
 - 🧠 Interested in **AI, NLP, and scalable systems**
+- 🌐 **Portfolio Web**: [adiweb.xo.je](https://adiweb.xo.je/?i=1)
+
+---
+
+EXPERIENCE
+----------
+Intern – Edunet Foundation (IBM SkillBuild Program)
+
+Joined the IBM SkillBuild internship program focused on industry-ready
+technical skills, structured learning, and professional development.
+(Offer letter awaited)
 
 ---
 
@@ -38,6 +49,9 @@
 ---
 
 ## 🏆 Achievements
+- 📨 Selected for Internship – RoboKwik
+- 📨 Selected for Internship – EI Systems Technologies
+      Selected via AICTE National Internship Portal
 - 🎖 Reliance Foundation Undergraduate Scholar  
 - 🥇 Oracle Cloud – Generative AI & Data Science Certified  
 - 💡 Hackathon participant (SIH, Health Hack)
