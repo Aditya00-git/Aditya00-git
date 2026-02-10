@@ -1,0 +1,29 @@
+<svg width="1200" height="10" viewBox="0 0 1200 10" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- blue gradient -->
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <!-- glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- heartbeat pulse animation -->
+  <rect width="1200" height="6" rx="4" fill="url(#grad)" filter="url(#glow)">
+    <animate attributeName="opacity"
+      values="0.4;1;0.4"
+      dur="0.7s"
+      repeatCount="indefinite"/>
+  </rect>
+
+</svg>
