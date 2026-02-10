@@ -1,16 +1,16 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=6&color=0:00ff41,50:0d1117,100:00ff41"/>
+<img src="./assets/heartbeat-bar.svg" width="100%"/>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=2000&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Hi+I'm+Aditya;Full-Stack+Developer;AI+%7C+Backend+%7C+Automation;Building+Systems+That+Work" />
 </p>
 
-<p align="right">
+<p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBmcWlieWVqdW1zMGJmN3d6ZmFlYTllcG1wYm9kbXA2dWl4b3hhMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/utio7lyz4Ehl6/giphy.gif" width="110"/>
 
 </p>
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:161b22,100:0d1117&height=6"/>
+<img src="./assets/heartbeat-bar.svg" width="100%"/>
 
 
 
