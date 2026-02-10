@@ -138,6 +138,7 @@ Reflection app to log mistakes & extract insights
 
 ---
 
+<img src="./assets/experience-futuristic.svg" width="100%"/>
 
 
 ---
