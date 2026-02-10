@@ -15,8 +15,7 @@
 
 
 
-
-
+<img src="./assets/matrix-divider.svg" width="100%"/>
 
 ## 🌐 Socials
 
@@ -92,51 +91,61 @@
 
 ---
 
-## 🚀 Featured Project
+<img src="./assets/heartbeat-bar.svg" width="100%"/>
 
-### 🤖 JARVIS — Offline AI Desktop Assistant
-Voice-controlled personal assistant that **runs fully offline** and directly automates my system.
+🚀 Projects
+<table> <tr> <td width="25%" valign="top">
+🤖 JARVIS
 
-• Wake word activation  
-• App launching & system controls  
-• WhatsApp/Spotify automation  
-• Local LLM reasoning (Ollama)  
-• Custom PyQt animated UI  
+Offline AI assistant with voice automation & system control
 
-**Tech:** `Python` `PyQt` `SpeechRecognition` `PyAutoGUI` `Ollama`
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=qt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=Ollama&logoColor=white"/>
+<img src="https://img.shields.io/badge/Automation-0d1117?style=for-the-badge&logo=Automation&logoColor=black"/>
+
+
+</td> <td width="25%" valign="top">
+✈️ AVIPRO
+
+Full-stack travel booking platform with CMS
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=black"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=blue"/>
+
+
+</td> <td width="25%" valign="top">
+🔍 Analyzer
+
+CLI tool for code structure & maintainability metrics
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Static%20Analysis-111111?style=for-the-badge"/>
+
+</td> <td width="25%" valign="top">
+📓 Tracker
+
+Reflection app to log mistakes & extract insights
+
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=black"/>
+<img src="https://img.shields.io/badge/Database-003B57?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/Analytics-1f6feb?style=for-the-badge&logo=chartdotjs&logoColor=blue"/>
+
+</td> </tr> </table>
+
+<img src="./assets/heartbeat-bar.svg" width="100%"/>
 
 ---
 
-## 📦 Projects
 
-🔹 **AVIPRO Travels** – Full-stack travel booking platform with admin CMS  
-🔹 **Codebase Analyzer** – CLI tool for code quality & structure analysis  
-🔹 **Micro-Failure Tracker** – Daily reflection app with learning insights  
 
 ---
 
-## 💼 Experience
 
-**Intern – Edunet Foundation (IBM SkillBuild)**  
-Industry-ready technical training & real-world projects
-
----
-
-## 🏆 Achievements
-
-🏅 Reliance Foundation Scholar  
-🎖 Oracle Cloud – GenAI & Data Science Certified  
-📨 Selected – RoboKwik, EI Systems (AICTE)  
-💡 Hackathons – SIH, Health Hack  
+🏆 Achievements
+<p align="center"> <img src="https://img.shields.io/badge/🎓-Reliance%20Foundation%20Scholar-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/☁️-Oracle%20GenAI%20Certified-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-RoboKwik%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-EI%20Systems%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/⚡-SIH%20%7C%20Health%20Hack-222222?style=for-the-badge"/> </p>
 
 ---
 
-## 🌱 Currently Learning
-
-Backend Architecture • System Design • Deep Learning
-
----
-
-<p align="center">
-  <i>"Build things. Break things. Learn faster."</i>
-</p>
+![footer](https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0d1117,50:1f6feb,100:0d1117&section=footer&text=Build%20•%20Break%20•%20Learn%20•%20Repeat&fontColor=ffffff&fontSize=22&fontAlignY=70)
