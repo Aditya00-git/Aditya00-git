@@ -17,7 +17,7 @@
 
 <img src="./assets/matrix-divider.svg" width="100%"/>
 
-## 🌐 Socials
+##  Socials
 
 
 <p align="center">
@@ -33,7 +33,7 @@
   <a href="https://tinyurl.com/hy78vev2">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-<a href="https://x.com/">
+<a href="https://x.com/AdityaSeswani?s=09">
     <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
 </p>
@@ -42,7 +42,7 @@
 
 ---
 
-## ⚡ About Me
+##  About Me
 
 🎓 CS @ **VIT Bhopal**  
 💻 Building full-stack apps & smart automation tools  
@@ -51,7 +51,7 @@
 
 ---
 
-## 🛠 When I code, I rely on
+## When I code, I rely on
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -93,7 +93,7 @@
 
 <img src="./assets/heartbeat-bar.svg" width="100%"/>
 
-🚀 Projects
+ Projects
 <table> <tr> <td width="25%" valign="top">
 🤖 JARVIS
 
@@ -144,7 +144,7 @@ Reflection app to log mistakes & extract insights
 ---
 
 
-🏆 Achievements
+ Achievements
 <p align="center"> <img src="https://img.shields.io/badge/🎓-Reliance%20Foundation%20Scholar-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/☁️-Oracle%20GenAI%20Certified-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-RoboKwik%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-EI%20Systems%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/⚡-SIH%20%7C%20Health%20Hack-222222?style=for-the-badge"/> </p>
 
 ---
