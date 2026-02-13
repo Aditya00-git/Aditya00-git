@@ -145,7 +145,7 @@ Reflection app to log mistakes & extract insights
 
 
  Achievements
-<p align="center"> <img src="https://img.shields.io/badge/🎓-Reliance%20Foundation%20Scholar-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/☁️-Oracle%20GenAI%20Certified-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-RoboKwik%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-EI%20Systems%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/⚡-SIH%20%7C%20Health%20Hack-222222?style=for-the-badge"/> </p>
+<p align="center"> <img src="https://img.shields.io/badge/🎓-Reliance%20Foundation%20Scholar-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/☁️-Oracle%20Cloud%20Infrastructre%20Certified-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-RoboKwik%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-EI%20Systems%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/⚡-SIH%20%7C%20Health%20Hack-222222?style=for-the-badge"/> </p>
 
 ---
 
