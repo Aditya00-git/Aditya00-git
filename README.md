@@ -21,7 +21,7 @@
 
 
 <p align="center">
-  <a href="https://adiweb.xo.je/?i=1">
+  <a href="https://aditya00-git.github.io/portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/>
   </a>
   <a href="https://tinyurl.com/35u8nepx">
