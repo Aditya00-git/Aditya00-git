@@ -116,7 +116,7 @@ Full-stack travel booking platform with CMS
 
 
 </td> <td width="25%" valign="top">
-🔍 Analyzer
+🔍 CodeScope
 
 CLI tool for code structure & maintainability metrics
 
@@ -124,7 +124,7 @@ CLI tool for code structure & maintainability metrics
 <img src="https://img.shields.io/badge/Static%20Analysis-111111?style=for-the-badge"/>
 
 </td> <td width="25%" valign="top">
-📓 Tracker
+📓 FailForward
 
 Reflection app to log mistakes & extract insights
 
