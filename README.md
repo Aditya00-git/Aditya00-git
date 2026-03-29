@@ -1,152 +1,187 @@
-<img src="./assets/heartbeat-bar.svg" width="100%"/>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&duration=2000&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Hi+I'm+Aditya;Full-Stack+Developer;AI+%7C+Backend+%7C+Automation;Building+Systems+That+Work" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=120&section=header&animation=fadeIn" width="100%"/>
 
-<p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHBmcWlieWVqdW1zMGJmN3d6ZmFlYTllcG1wYm9kbXA2dWl4b3hhMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/utio7lyz4Ehl6/giphy.gif" width="110"/>
-
-</p>
+</div>
 
 
-<img src="./assets/heartbeat-bar.svg" width="100%"/>
+<div align="center">
 
+```
+ █████╗ ██████╗ ██╗████████╗██╗   ██╗ █████╗
+██╔══██╗██╔══██╗██║╚══██╔══╝╚██╗ ██╔╝██╔══██╗
+███████║██║  ██║██║   ██║    ╚████╔╝ ███████║
+██╔══██║██║  ██║██║   ██║     ╚██╔╝  ██╔══██║
+██║  ██║██████╔╝██║   ██║      ██║   ██║  ██║
+╚═╝  ╚═╝╚═════╝ ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝
+```
 
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=16&duration=2500&pause=1000&color=00FFAA&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%2F%2F+AI+%7C+NLP+%7C+Backend;Building+Systems+That+Actually+Work;CS+%40+VIT+Bhopal+%E2%86%92+Shipping+Products" />
 
-
-<img src="./assets/matrix-divider.svg" width="100%"/>
-
-##  Socials
-
-
-<p align="center">
-  <a href="https://portfolio--adi.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white"/>
-  </a>
-  <a href="https://tinyurl.com/35u8nepx">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:seswaniaditya@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://tinyurl.com/hy78vev2">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-<a href="https://x.com/AdityaSeswani?s=09">
-    <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white"/>
-  </a>
-</p>
-
-
+</div>
 
 ---
 
-##  About Me
-
-🎓 CS @ **VIT Bhopal**  
-💻 Building full-stack apps & smart automation tools  
-🤖 Interested in **AI, NLP & scalable systems**  
-🧠 Love turning ideas → working products  
+<table align="center"><tr>
+<td align="center"><a href="https://portfolio--adi.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0a0a0f?style=for-the-badge&logo=firefox&logoColor=00ffaa&labelColor=0a0a0f"/></a></td>
+<td align="center"><a href="https://tinyurl.com/35u8nepx"><img src="https://img.shields.io/badge/LINKEDIN-0a0a0f?style=for-the-badge&logo=linkedin&logoColor=00ffaa&labelColor=0a0a0f"/></a></td>
+<td align="center"><a href="mailto:seswaniaditya@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0a0f?style=for-the-badge&logo=gmail&logoColor=00ffaa&labelColor=0a0a0f"/></a></td>
+<td align="center"><a href="https://x.com/AdityaSeswani?s=09"><img src="https://img.shields.io/badge/TWITTER-0a0a0f?style=for-the-badge&logo=x&logoColor=00ffaa&labelColor=0a0a0f"/></a></td>
+<td align="center"><a href="https://tinyurl.com/hy78vev2"><img src="https://img.shields.io/badge/INSTAGRAM-0a0a0f?style=for-the-badge&logo=instagram&logoColor=00ffaa&labelColor=0a0a0f"/></a></td>
+</tr></table>
 
 ---
 
-## When I code, I rely on
+## ⬡ about.me
+
+```yaml
+name:     Aditya Seswani
+edu:      CS @ VIT Bhopal
+focus:    Full-Stack · AI · NLP · Scalable Systems
+goal:     Turn ideas → working, polished products
+status:   Building something new
+```
+
+---
+
+## ⬡ tech.stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0a0a0f?style=flat-square&logo=python&logoColor=00ffaa)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=flat-square&logo=javascript&logoColor=00ffaa)
+![C++](https://img.shields.io/badge/C++-0a0a0f?style=flat-square&logo=cplusplus&logoColor=00ffaa)
+![Java](https://img.shields.io/badge/Java-0a0a0f?style=flat-square&logo=java&logoColor=00ffaa)
+![PHP](https://img.shields.io/badge/PHP-0a0a0f?style=flat-square&logo=php&logoColor=00ffaa)
+
+**Backend & Web**
+
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=flat-square&logo=node.js&logoColor=7eb3f8)
+![Express.js](https://img.shields.io/badge/Express.js-0a0a0f?style=flat-square&logo=express&logoColor=7eb3f8)
+![MySQL](https://img.shields.io/badge/MySQL-0a0a0f?style=flat-square&logo=mysql&logoColor=7eb3f8)
+![HTML5](https://img.shields.io/badge/HTML5-0a0a0f?style=flat-square&logo=html5&logoColor=7eb3f8)
+![CSS3](https://img.shields.io/badge/CSS3-0a0a0f?style=flat-square&logo=css3&logoColor=7eb3f8)
+
+**Tools & AI**
+
+![NLP](https://img.shields.io/badge/NLP-0a0a0f?style=flat-square&logoColor=475569)
+![Git](https://img.shields.io/badge/Git-0a0a0f?style=flat-square&logo=git&logoColor=475569)
+![GitHub](https://img.shields.io/badge/GitHub-0a0a0f?style=flat-square&logo=github&logoColor=475569)
+![VS Code](https://img.shields.io/badge/VS_Code-0a0a0f?style=flat-square&logo=visualstudiocode&logoColor=475569)
+
+---
+
+## ⬡ &nbsp;Experience
+
+<div>
+<img src="/assets/experience-futuristic.svg" width="100%"/>
+</div>
+<!-- <table>
+<tr>
+<td width="6%" align="center">🟣</td>
+<td width="94%">
+ 
+**Web Development Intern** &nbsp;·&nbsp; [ShadowFox](https://shadowfox.in/) &nbsp;`Remote` &nbsp;`Present`
+ 
+Contributing to live web development projects — building structured, responsive web applications with clean UI components and integrated server-side logic.
+ 
+`Frontend` &nbsp;`Backend Integration` &nbsp;`Responsive Design`
+ 
+</td>
+</tr>
+<tr>
+<td align="center">🟣</td>
+<td>
+ 
+**Front-End Web Development Intern** &nbsp;·&nbsp; EduLinkUp &nbsp;`Remote` &nbsp;`2026`
+ 
+Worked on UI/UX with Tailwind CSS, building clean and modern interfaces. Delivered structured frontend demonstrations that sharpened both technical depth and communication.
+ 
+`Tailwind CSS` &nbsp;`UI/UX` &nbsp;`JavaScript`
+ 
+</td>
+</tr>
+<tr>
+<td align="center">🟣</td>
+<td>
+ 
+**AI/ML Intern** &nbsp;·&nbsp; Edunet Foundation × IBM SkillsBuild &nbsp;`Remote`
+ 
+Trained on AI/ML technologies end-to-end, with hands-on projects leveraging IBM Cloud resources, AI tools, and applied machine learning pipelines.
+ 
+`AI/ML` &nbsp;`IBM Cloud` &nbsp;`NLP`
+ 
+</td>
+</tr>
+</table> -->
+
+---
+
+## ⬡ projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 JARVIS
+Offline AI assistant with voice automation and full system control.
+
+`Python` `PyQt` `Ollama` `Automation`
+
+</td>
+<td width="50%" valign="top">
+
+### ✈️ AVIPRO
+Full-stack travel booking platform with integrated CMS.
+
+`Node.js` `Express` `MySQL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 CodeScope
+CLI tool for code structure analysis and maintainability metrics.
+
+`Python` `Static Analysis`
+
+</td>
+<td width="50%" valign="top">
+
+### 📓 FailForward
+Reflection app to log mistakes and extract growth insights.
+
+`Node.js` `Database` `Analytics`
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⬡ achievements
+
+> 🎓 **Reliance Foundation Scholar**
+> ☁️ **Oracle Cloud Infrastructure Certified**
+> 💼 Internship offers — **RoboKwik** & **EI Systems**
+> ⚡ Competed in **SIH** and **Health Hack** hackathons
+
+---
+
+## ⬡ github.stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/NLP-0A0A0A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Data_Preprocessing-1F2937?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+  <img height="160" src="https://streak-stats.demolab.com?user=Aditya00-git&theme=radical&hide_border=true&background=0a0a0f&ring=00ffaa&fire=00ffaa&currStreakLabel=00ffaa" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Aditya00-git&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=00ffaa&text_color=94a3b8" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
+<div align="center">
 
-
-<p align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=Aditya00-git&theme=radical&hide_border=true"/>
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Aditya00-git&layout=compact&theme=radical&hide_border=true"/>
-</p>
-
-
-
----
-
-<img src="./assets/heartbeat-bar.svg" width="100%"/>
-
- Projects
-<table> <tr> <td width="25%" valign="top">
-🤖 JARVIS
-
-Offline AI assistant with voice automation & system control
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyQt-41CD52?style=for-the-badge&logo=qt&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=Ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/Automation-0d1117?style=for-the-badge&logo=Automation&logoColor=black"/>
-
-
-</td> <td width="25%" valign="top">
-✈️ AVIPRO
-
-Full-stack travel booking platform with CMS
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=black"/>
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=blue"/>
-
-
-</td> <td width="25%" valign="top">
-🔍 CodeScope
-
-CLI tool for code structure & maintainability metrics
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Static%20Analysis-111111?style=for-the-badge"/>
-
-</td> <td width="25%" valign="top">
-📓 FailForward
-
-Reflection app to log mistakes & extract insights
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=black"/>
-<img src="https://img.shields.io/badge/Database-003B57?style=for-the-badge&logo=databricks&logoColor=white"/>
-<img src="https://img.shields.io/badge/Analytics-1f6feb?style=for-the-badge&logo=chartdotjs&logoColor=blue"/>
-
-</td> </tr> </table>
-
-<img src="./assets/heartbeat-bar.svg" width="100%"/>
-
----
-
-<img src="./assets/experience-futuristic.svg" width="100%"/>
-
-
----
-
-
- Achievements
-<p align="center"> <img src="https://img.shields.io/badge/🎓-Reliance%20Foundation%20Scholar-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/☁️-Oracle%20Cloud%20Infrastructre%20Certified-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-RoboKwik%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/💼-EI%20Systems%20Internship%20offer-222222?style=for-the-badge"/> <img src="https://img.shields.io/badge/⚡-SIH%20%7C%20Health%20Hack-222222?style=for-the-badge"/> </p>
-
----
-
-![footer](https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0d1117,50:1f6feb,100:0d1117&section=footer&text=Build%20•%20Break%20•%20Learn%20•%20Repeat&fontColor=ffffff&fontSize=22&fontAlignY=70)
+```
+BUILD  ·  BREAK  ·  LEARN  ·  REPEAT
+```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=80&section=footer&animation=fadeIn" width="100%"/>
+</div>
