@@ -1,0 +1,70 @@
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1f6feb"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- panel -->
+  <rect x="8" y="8" width="984" height="284" rx="16"
+        fill="#0d1117"
+        stroke="url(#borderGlow)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <!-- title -->
+  <text x="30" y="38" fill="#58a6ff" font-size="18" font-family="monospace">
+    ◉ EXPERIENCE_PANEL
+  </text>
+
+  <!-- divider -->
+  <line x1="250" y1="55" x2="250" y2="275" stroke="#1f6feb" stroke-width="1"/>
+
+  <!-- labels -->
+  <text x="30" y="85" fill="#8b949e" font-size="13" font-family="monospace">ROLE</text>
+  <text x="30" y="105" fill="#8b949e" font-size="13" font-family="monospace">ORG</text>
+  <text x="30" y="125" fill="#8b949e" font-size="13" font-family="monospace">TYPE</text>
+
+  <!-- EXPERIENCE 1 -->
+  <text x="270" y="85" fill="#ffffff" font-size="14" font-family="monospace">Web Dev Intern</text>
+  <text x="270" y="105" fill="#ffffff" font-size="14" font-family="monospace">ShadowFox</text>
+  <text x="270" y="125" fill="#58a6ff" font-size="13" font-family="monospace">Full Stack | Live Projects</text>
+
+  <!-- line -->
+  <line x1="30" y1="145" x2="970" y2="145" stroke="#161b22"/>
+
+  <!-- EXPERIENCE 2 -->
+  <text x="30" y="175" fill="#8b949e" font-size="13" font-family="monospace">ROLE</text>
+  <text x="30" y="195" fill="#8b949e" font-size="13" font-family="monospace">ORG</text>
+  <text x="30" y="215" fill="#8b949e" font-size="13" font-family="monospace">TYPE</text>
+
+  <text x="270" y="175" fill="#ffffff" font-size="14" font-family="monospace">Frontend Intern</text>
+  <text x="270" y="195" fill="#ffffff" font-size="14" font-family="monospace">EduLinkUp</text>
+  <text x="270" y="215" fill="#58a6ff" font-size="13" font-family="monospace">UI/UX | Tailwind</text>
+
+  <!-- line -->
+  <line x1="30" y1="235" x2="970" y2="235" stroke="#161b22"/>
+
+  <!-- EXPERIENCE 3 -->
+  <text x="30" y="265" fill="#8b949e" font-size="13" font-family="monospace">ROLE</text>
+  <text x="30" y="285" fill="#8b949e" font-size="13" font-family="monospace">ORG</text>
+
+  <text x="270" y="265" fill="#ffffff" font-size="14" font-family="monospace">AI/ML Intern</text>
+  <text x="270" y="285" fill="#ffffff" font-size="14" font-family="monospace">Edunet Foundation (IBM)</text>
+
+  <!-- status -->
+  <circle cx="920" cy="32" r="7" fill="#2ea043" filter="url(#glow)"/>
+  <text x="940" y="37" fill="#2ea043" font-size="12" font-family="monospace">ACTIVE</text>
+
+</svg>
