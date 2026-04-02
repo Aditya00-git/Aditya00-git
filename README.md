@@ -115,48 +115,7 @@ Trained on AI/ML technologies end-to-end, with hands-on projects leveraging IBM 
 </tr>
 </table> -->
 
----
 
-## ⬡ projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🤖 JARVIS
-Offline AI assistant with voice automation and full system control.
-
-`Python` `PyQt` `Ollama` `Automation`
-
-</td>
-<td width="50%" valign="top">
-
-### ✈️ AVIPRO
-Full-stack travel booking platform with integrated CMS.
-
-`Node.js` `Express` `MySQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔍 CodeScope
-CLI tool for code structure analysis and maintainability metrics.
-
-`Python` `Static Analysis`
-
-</td>
-<td width="50%" valign="top">
-
-### 📓 FailForward
-Reflection app to log mistakes and extract growth insights.
-
-`Node.js` `Database` `Analytics`
-
-</td>
-</tr>
-</table>
 
 ---
 
