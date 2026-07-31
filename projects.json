@@ -1,0 +1,26 @@
+[
+  {
+    "name": "JARVIS",
+    "repo": "Aditya00-git/JARVIS",
+    "description": "Offline AI desktop assistant with 25+ features, wake-word activation, and system automation, fully local inference",
+    "tags": ["Python", "PyQt", "NLP"]
+  },
+  {
+    "name": "Avipro Travels",
+    "repo": "Aditya00-git/Avipro-travels",
+    "description": "CMS-driven travel booking platform with a full admin panel, packages, bookings, and JWT-secured payments",
+    "tags": ["PHP", "MySQL", "AJAX"]
+  },
+  {
+    "name": "CodeScope",
+    "repo": "Aditya00-git/CodeScope",
+    "description": "PyPI-distributed CLI that scans a project directory and reports on structure, dependencies, and codebase health",
+    "tags": ["Python", "CLI"]
+  },
+  {
+    "name": "FailForward",
+    "repo": "Aditya00-git/FailForward",
+    "description": "Full-stack app for logging failures instead of hiding them, with real-time analytics and activity tracking",
+    "tags": ["Node.js", "MongoDB", "JWT"]
+  }
+]
