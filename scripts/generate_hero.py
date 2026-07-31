@@ -16,18 +16,18 @@ import re
 
 THEMES = {
     "light": {
-        "BG": "#FFFFFF", "PANEL_BAR": "#F1F5F9", "PANEL": "#F8FAFC",
-        "TEXT": "#0F172A", "LABEL": "#57606A", "MUTED": "#475569",
-        "DOTS": "rgba(15,23,42,0.25)", "BORDER": "rgba(15,23,42,0.10)",
-        "BOX_STROKE": "rgba(15,23,42,0.35)", "ACCENT": ["#8B949E", "#57606A", "#24292E"],
-        "ASCII": "#2b3138", "LIVE": "#DC2626",
+        "BG": "#FAF8F5", "PANEL_BAR": "#F3EEE7", "PANEL": "#FFFFFF",
+        "TEXT": "#241C15", "LABEL": "#B8501F", "MUTED": "#6B5D4F",
+        "DOTS": "rgba(36,28,21,0.22)", "BORDER": "rgba(36,28,21,0.10)",
+        "BOX_STROKE": "rgba(184,80,31,0.30)", "ACCENT": ["#C2601F", "#0F7A6E", "#B8501F"],
+        "ASCII": "#241C15", "LIVE": "#C2410C", "GLYPH": "#0F7A6E",
     },
     "dark": {
-        "BG": "#0D1117", "PANEL_BAR": "#161B22", "PANEL": "#0D1117",
-        "TEXT": "#F0F6FC", "LABEL": "#C9D1D9", "MUTED": "#8B949E",
-        "DOTS": "rgba(240,246,252,0.20)", "BORDER": "rgba(240,246,252,0.08)",
-        "BOX_STROKE": "rgba(240,246,252,0.25)", "ACCENT": ["#484F58", "#8B949E", "#C9D1D9"],
-        "ASCII": "#e6edf3", "LIVE": "#F85149",
+        "BG": "#141110", "PANEL_BAR": "#1C1815", "PANEL": "#141110",
+        "TEXT": "#F5E9DD", "LABEL": "#E08A4E", "MUTED": "#B3A090",
+        "DOTS": "rgba(245,233,221,0.18)", "BORDER": "rgba(245,233,221,0.08)",
+        "BOX_STROKE": "rgba(224,138,78,0.30)", "ACCENT": ["#E08A4E", "#2DD4BF", "#E08A4E"],
+        "ASCII": "#F5E9DD", "LIVE": "#F97316", "GLYPH": "#2DD4BF",
     },
 }
 
@@ -113,9 +113,35 @@ def build(theme_name, ascii_inner):
     scale = min(box_w / 568, box_h / 614) * 0.98
     tx = box_x + (box_w - 568 * scale) / 2
     ty = box_y + (box_h - 614 * scale) / 2
-    a(f'<g transform="translate({tx:.1f},{ty:.1f}) scale({scale:.4f})" fill="{t["ASCII"]}">')
+    KT = "0;0.55;0.62;0.85;0.92;1"
+    DUR = "9s"
+    # ascii portrait: visible, dips out mid-cycle, returns
+    a(f'<g fill="{t["ASCII"]}">'
+      f'<animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="{KT}" '
+      f'dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze"/>'
+      f'<g transform="translate({tx:.1f},{ty:.1f}) scale({scale:.4f})">')
     a(ascii_inner)
-    a('</g>')
+    a('</g></g>')
+    # code glyph: hidden, flickers in as a glitch during the dip, fades back out
+    gcx, gcy = box_x + box_w / 2, box_y + box_h / 2
+    a(f'<g opacity="0" font-family="{FONT}" font-weight="700" fill="{t["GLYPH"]}" '
+      f'text-anchor="middle" transform="translate({gcx:.1f},{gcy:.1f})">'
+      f'<animate attributeName="opacity" values="0;0;0.15;1;1;0.2;0;0" '
+      f'keyTimes="0;0.53;0.57;0.62;0.85;0.89;0.93;1" dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze"/>'
+      f'<animateTransform attributeName="transform" type="translate" '
+      f'values="{gcx-4:.1f} {gcy:.1f};{gcx-4:.1f} {gcy:.1f};{gcx+3:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f};'
+      f'{gcx:.1f} {gcy:.1f};{gcx-3:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f}" '
+      f'keyTimes="0;0.53;0.57;0.62;0.85;0.89;0.93;1" dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze" additive="sum"/>'
+      f'<text font-size="96" dy="30">&lt;/&gt;</text>'
+      f'</g>')
+    # scanline glitch bars during the transition window only
+    for i in range(6):
+        gy = box_y + 40 + i * (box_h - 80) / 5
+        a(f'<rect x="{box_x+10}" y="{gy:.0f}" width="{box_w-20}" height="{2 + i%3}" '
+          f'fill="{t["GLYPH"]}" opacity="0">'
+          f'<animate attributeName="opacity" values="0;0;0.5;0;0" '
+          f'keyTimes="0;0.55;0.585;0.62;1" dur="{DUR}" begin="{3.2+i*0.02:.2f}s" repeatCount="indefinite"/>'
+          f'</rect>')
 
     # ---- right: SYSTEM.INFO ----
     rx = 522

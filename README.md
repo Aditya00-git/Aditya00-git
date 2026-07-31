@@ -44,15 +44,15 @@
 <div align="center">
 
 <a href="https://portfolio--adi.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logoColor=white&labelColor=0D1117&logo=vercel" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-141110?style=for-the-badge&logoColor=E08A4E&labelColor=141110&logo=vercel" alt="Portfolio" />
 </a>
 &nbsp;&nbsp;
 <a href="https://tinyurl.com/35u8nepx">
-  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logoColor=C9D1D9&labelColor=0D1117&logo=linkedin" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-141110?style=for-the-badge&logoColor=2DD4BF&labelColor=141110&logo=linkedin" alt="LinkedIn" />
 </a>
 &nbsp;&nbsp;
 <a href="mailto:seswaniaditya@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logoColor=C9D1D9&labelColor=0D1117&logo=gmail" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-141110?style=for-the-badge&logoColor=E08A4E&labelColor=141110&logo=gmail" alt="Email" />
 </a>
 &nbsp;&nbsp;
 
