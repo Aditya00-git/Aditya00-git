@@ -13,6 +13,7 @@ Reads:  ascii.svg              (already-generated ascii portrait, reused as-is)
 Writes: dark.svg, light.svg    (repo root)
 """
 import re
+import random
 
 THEMES = {
     "light": {
@@ -113,35 +114,34 @@ def build(theme_name, ascii_inner):
     scale = min(box_w / 568, box_h / 614) * 0.98
     tx = box_x + (box_w - 568 * scale) / 2
     ty = box_y + (box_h - 614 * scale) / 2
-    KT = "0;0.55;0.62;0.85;0.92;1"
-    DUR = "9s"
-    # ascii portrait: visible, dips out mid-cycle, returns
+    KT = "0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000"
+    CYCLE_DUR = "13.9s"
+    # ascii portrait: draws in once (rows keep their own begin-staggered reveal),
+    # then loops — visible at the edges of each cycle, dips out in the middle
     a(f'<g fill="{t["ASCII"]}">'
-      f'<animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="{KT}" '
-      f'dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze"/>'
+      f'<set attributeName="opacity" to="1" begin="3.2s"/>'
+      f'<animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="{KT}" '
+      f'dur="{CYCLE_DUR}" begin="3.2s" repeatCount="indefinite"/>'
       f'<g transform="translate({tx:.1f},{ty:.1f}) scale({scale:.4f})">')
     a(ascii_inner)
     a('</g></g>')
-    # code glyph: hidden, flickers in as a glitch during the dip, fades back out
-    gcx, gcy = box_x + box_w / 2, box_y + box_h / 2
-    a(f'<g opacity="0" font-family="{FONT}" font-weight="700" fill="{t["GLYPH"]}" '
-      f'text-anchor="middle" transform="translate({gcx:.1f},{gcy:.1f})">'
-      f'<animate attributeName="opacity" values="0;0;0.15;1;1;0.2;0;0" '
-      f'keyTimes="0;0.53;0.57;0.62;0.85;0.89;0.93;1" dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze"/>'
-      f'<animateTransform attributeName="transform" type="translate" '
-      f'values="{gcx-4:.1f} {gcy:.1f};{gcx-4:.1f} {gcy:.1f};{gcx+3:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f};'
-      f'{gcx:.1f} {gcy:.1f};{gcx-3:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f};{gcx:.1f} {gcy:.1f}" '
-      f'keyTimes="0;0.53;0.57;0.62;0.85;0.89;0.93;1" dur="{DUR}" begin="3.2s" repeatCount="indefinite" fill="freeze" additive="sum"/>'
-      f'<text font-size="96" dy="30">&lt;/&gt;</text>'
-      f'</g>')
-    # scanline glitch bars during the transition window only
-    for i in range(6):
-        gy = box_y + 40 + i * (box_h - 80) / 5
-        a(f'<rect x="{box_x+10}" y="{gy:.0f}" width="{box_w-20}" height="{2 + i%3}" '
-          f'fill="{t["GLYPH"]}" opacity="0">'
-          f'<animate attributeName="opacity" values="0;0;0.5;0;0" '
-          f'keyTimes="0;0.55;0.585;0.62;1" dur="{DUR}" begin="{3.2+i*0.02:.2f}s" repeatCount="indefinite"/>'
-          f'</rect>')
+
+    # TV-static glitch: hundreds of tiny flickering pixels scattered across the
+    # box, visible only during the dip window (inverse of the photo's cycle)
+    a(f'<defs><rect id="static_{theme_name}" width="2.2" height="1.6" fill="{t["GLYPH"]}"/></defs>')
+    rnd = random.Random(42)
+    n_particles = 260
+    for i in range(n_particles):
+        px = box_x + 6 + rnd.random() * (box_w - 12)
+        py = box_y + 6 + rnd.random() * (box_h - 12)
+        flick_dur = 0.15 + rnd.random() * 0.35
+        flick_begin = rnd.random() * 0.6
+        a(f'<use href="#static_{theme_name}" opacity="0" transform="translate({px:.1f},{py:.1f})">'
+          f'<animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="{KT}" '
+          f'dur="{CYCLE_DUR}" begin="3.2s" repeatCount="indefinite"/>'
+          f'<animate attributeName="opacity" values="1;0.15;1" dur="{flick_dur:.2f}s" '
+          f'begin="{3.2+flick_begin:.2f}s" repeatCount="indefinite"/>'
+          f'</use>')
 
     # ---- right: SYSTEM.INFO ----
     rx = 522
