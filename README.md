@@ -55,6 +55,10 @@
   <img src="https://img.shields.io/badge/Email-141110?style=for-the-badge&logoColor=E08A4E&labelColor=141110&logo=gmail" alt="Email" />
 </a>
 &nbsp;&nbsp;
+<a href="https://instagram.com/_.adiii3.__/">
+  <img src="https://img.shields.io/badge/Instagram-141110?style=for-the-badge&logoColor=E08A4E&labelColor=141110&logo=instagram" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
 
 </div>
 
